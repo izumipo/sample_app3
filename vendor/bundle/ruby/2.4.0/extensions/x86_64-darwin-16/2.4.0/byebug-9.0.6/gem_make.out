@@ -1,0 +1,19 @@
+current directory: /Users/mipo/workspace2/sample_app/vendor/bundle/ruby/2.4.0/gems/byebug-9.0.6/ext/byebug
+/usr/local/opt/ruby/bin/ruby -r ./siteconf20171004-14000-1jwhf34.rb extconf.rb
+creating Makefile
+
+current directory: /Users/mipo/workspace2/sample_app/vendor/bundle/ruby/2.4.0/gems/byebug-9.0.6/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /Users/mipo/workspace2/sample_app/vendor/bundle/ruby/2.4.0/gems/byebug-9.0.6/ext/byebug
+make "DESTDIR="
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.bundle
+
+current directory: /Users/mipo/workspace2/sample_app/vendor/bundle/ruby/2.4.0/gems/byebug-9.0.6/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.bundle ./.gem.20171004-14000-1a3ftxx/byebug
