@@ -63,12 +63,11 @@ Rails.application.configure do
   config.action_mailer.perform_caching = false
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.delivery_method = :smtp
-  host = '<your heroku app>.herokuapp.com'
-  config.action_mailer.default_url_options = { host: localhost:3000 }
+  config.action_mailer.default_url_options = { host: 'glacial-fjord-16940.herokuapp.com' }
   ActionMailer::Base.smtp_settings = {
     :address        => 'smtp.sendgrid.net',
     :port           => '587',
-    :authentication => :plain,
+    :authentication => :plain,glacial-fjord-16940
     :user_name      => ENV['SENDGRID_USERNAME'],
     :password       => ENV['SENDGRID_PASSWORD'],
     :domain         => 'heroku.com',
