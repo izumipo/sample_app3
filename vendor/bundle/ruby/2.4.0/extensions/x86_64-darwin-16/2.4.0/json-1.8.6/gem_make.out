@@ -1,0 +1,13 @@
+current directory: /Users/mipo/workspace2/sample_app/vendor/bundle/ruby/2.4.0/gems/json-1.8.6/ext/json
+/usr/local/opt/ruby/bin/ruby -r ./siteconf20171010-1399-r1mhwe.rb extconf.rb
+creating Makefile
+
+current directory: /Users/mipo/workspace2/sample_app/vendor/bundle/ruby/2.4.0/gems/json-1.8.6/ext/json
+make "DESTDIR=" clean
+
+current directory: /Users/mipo/workspace2/sample_app/vendor/bundle/ruby/2.4.0/gems/json-1.8.6/ext/json
+make "DESTDIR="
+make: Nothing to be done for `all'.
+
+current directory: /Users/mipo/workspace2/sample_app/vendor/bundle/ruby/2.4.0/gems/json-1.8.6/ext/json
+make "DESTDIR=" install
